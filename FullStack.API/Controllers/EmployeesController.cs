@@ -13,6 +13,7 @@ namespace FullStack.API.Controllers
         public EmployeesController(FullStackDbContext fullStackDbContext)
         {
             _fullStackDbContext = fullStackDbContext;
+            int a = 10;
 
         }
         [HttpGet]
